@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap');
+
+/* reset */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* common style */
+.wrap {
+    font-size: 15px;
+    font-family: 'Noto Sans KR', sans-serif;
+    min-width: 1280px;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* header style */
+header {
+    height: 140px;
+    position: relative;
+}
+
+header .inner-header {
+    width: 1168px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header .inner-header .logo {
+    float: left;
+    position: relative;
+    top: 28px;
+}
+
+header .inner-header .hMenu {
+    float: left;
+    height: 100%;
+}
+
+header .inner-header .hMenu .menu {
+    margin-left: 50px;
+}
+
+header .inner-header .hMenu .menu li {
+    float: left;
+    margin: auto 50px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 140px;
+}
+
+header .inner-header .rightMenu {
+    position: absolute;
+    top: 53px;
+    right: 57px;
+}
+
+header .inner-header .rightMenu a {
+    float: left;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    width: 80px;
+    height: 35px;
+    margin: auto 1px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+}
+
+header .inner-header .rightMenu a:first-child {
+    background: #db0007;
+}
+header .inner-header .rightMenu a:nth-child(2) {
+    background: #d87e00;
+}
+header .inner-header .rightMenu a:last-child {
+    background: #264a36;
+}
+
+header .inner-header .find {
+    float: right;
+    line-height: 140px;
+    font-size: 35px;
+}
+
+/* footer style */
+footer {
+    background: #292929;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+    height: 300px;
+}
+
+footer .inner-footer {
+    padding: 60px;    
+    width: 1168px;
+    margin: 0 auto;
+}
+
+footer .inner-footer .fUtil {
+    float: left;
+}
+
+footer .inner-footer .fUtil li:first-child {
+    color: yellow;
+}
+
+footer .inner-footer .fInfo {
+    float: left;
+    margin-left: 100px;
+    opacity: 0.6;
+    font-size: 14px;
+    line-height: 2;
+}
+
+footer .inner-footer .fSns {
+    float: right;
+    font-size: 40px;
+}
+
+footer .inner-footer .fSns li {
+    float: left;
+    margin-left: 20px;
+}
