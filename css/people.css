@@ -1,12 +1,27 @@
 
-
 /* visual-board style */
 .container .visual-board{
     background: url(../img/bg_visual_story04.jpg);
+    width: 1922px;
     height: 220px;
     color: #fff;
-    text-shadow: #000 5px;
     font-weight: 700;
+    margin: 0 auto;
+    position: relative;
+    z-index: -2;
+}
+
+.container .visual-board::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #00000073;
+    opacity: 0.9;
+    width: 100vw;
+    height: 220px;
+    z-index: -1;
 }
 
 .container .visual-board .inner-vb {
@@ -95,4 +110,24 @@
     margin-top: 5px;
     color: #808080;
     font-weight: 500;
+}
+
+.crewList li a {
+    position: relative;
+}
+
+.crewList li a:hover::after {
+    content: '┼';
+    line-height: 247px;
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    top: -50;
+    left: 0;
+    background: #FFBC0D;
+    opacity: 0.9;
+    width: 247px;
+    height: 247px;
+    border-radius: 100%;
+    font-weight: normal;
 }
