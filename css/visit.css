@@ -1,4 +1,8 @@
 
+.container {
+    height: 1500px;
+}
+
 .container .visual-board{
     background: url(../imgs/bg_visual_menu01.jpg) no-repeat 50% 50%;
     height: 220px;
@@ -65,6 +69,7 @@
 }
 
 .tab {
+    width: 1168px;
     margin: 0 auto;
     text-align: center;
 }
@@ -82,11 +87,60 @@
     color: #db0007;
     border-bottom: 1px solid #db0007;
 }
-.tab li a:hover{
+.tab li a{
+    color: #808080;
+}
+.tab li a.m{
     color: #db0007;
 }
 
+.mcMenu {
+    width: 1168px;
+    margin: 0 auto;
+}
+.mcMenu .count{
+    width: 1168px;
+    height: 10px;
+    font-size: 18px;
+    color: black;
+    margin: 0 auto;
+    
+}
+.mcMenu .count::before{
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: -2px 10px 0px 0px;
+    border-radius: 100%;
+    background: #f5bd43;
 
+}
+.mcMenu p ul li {
+    background: #f5bd43;
+
+    
+}
+.mcMenu p ul li img {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    vertical-align: top;
+    
+}
+.menulist {
+    margin: 0 0 -35px -35px;
+}
+.menulist li {
+    background: #f1f0f0;
+    float: left;
+    width: 366px;
+    height: 352px;
+    margin: 0 auto;
+    border-radius: 3%;
+    padding: 10px 10px;
+
+}
 
 
 
