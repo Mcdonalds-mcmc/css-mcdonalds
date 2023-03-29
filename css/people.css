@@ -131,3 +131,40 @@
     border-radius: 100%;
     font-weight: normal;
 }
+
+.aside {
+    width: 150px;
+    position: sticky;
+    bottom: 110px;
+    left: 75% ;
+    z-index: 2;
+}
+
+.aside .go-story {
+    display: block;
+    width: 121px;
+    height: 121px;
+    overflow: hidden;
+    text-indent: -9999px;
+    background: url(../img/btn_story_04.png) no-repeat center 0;
+}
+
+.aside .goDelivery {
+    display: block;
+    width: 121px;
+    height: 121px;
+    overflow: hidden;
+    text-indent: -9999px;
+    margin: 15px 0;
+    background: url(../img/btn_delivery_04.png) no-repeat center 0;
+}
+
+.btnTop {
+    border: none;
+    width: 51px;
+    height: 48px;
+    background: url(../img/btn_top_04.png) 0 14px no-repeat;
+    text-indent: -9999px;
+    font-size: 1px;
+    margin-left: 41px;
+}
