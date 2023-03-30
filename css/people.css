@@ -166,7 +166,7 @@
 }
 
 .btnTop {
-    border: none;
+    display: block;
     width: 51px;
     height: 48px;
     background: url(../img/btn_top_04.png) 0 14px no-repeat;
