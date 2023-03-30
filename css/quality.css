@@ -1,11 +1,12 @@
 .container {
     padding-top: 140px;
     z-index: -5;
+    /* background: url(../img/bg_food_01_01.jpg) no-repeat center top; */
 }
 
 /* visual-board style */
 .container .visual-board{
-    background: url(../img/bg_visual_story04.jpg);
+    background: url(../img/bg_visual_story03.jpg) 50% 50% no-repeat;
     width: 1922px;
     height: 220px;
     color: #fff;
@@ -63,79 +64,6 @@
     background: #f5bd43;
 }
 
-/* mainArea style */
-.mainArea {
-    padding: 30px 0 60px;
-    width: 1168px;
-    margin: 0 auto;
-    height: 300px;
-}
-
-.tab {
-    margin: 0 auto;
-    text-align: center;
-}
-
-.tab li {
-    display: inline-block;
-    margin: 0 40px;
-    padding-bottom: 10px;
-    font-size: 20px;
-    color: #808080;
-    font-weight: 700;
-}
-
-.tab li:first-child {
-    color: #db0007;
-    border-bottom: 1px solid #db0007;
-}
-
-.ma-title {
-    margin: 100px 0 30px;
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.crewList {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-
-.crewList .tit {
-    display: block;
-    font-size: 20px;
-    font-weight: 700;
-    margin-top: 25px;    
-    line-height: 34px;
-}
-
-.crewList .crewInfo {
-    display: block;
-    margin-top: 5px;
-    color: #808080;
-    font-weight: 500;
-}
-
-.crewList li a {
-    position: relative;
-}
-
-.crewList li a:hover::after {
-    content: '┼';
-    line-height: 247px;
-    font-size: 50px;
-    color: #fff;
-    position: absolute;
-    top: -50;
-    left: 0;
-    background: #FFBC0D;
-    opacity: 0.9;
-    width: 247px;
-    height: 247px;
-    border-radius: 100%;
-    font-weight: normal;
-}
 
 /* aside style */
 .aside {
