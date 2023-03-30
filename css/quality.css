@@ -1,13 +1,12 @@
 .container {
     padding-top: 140px;
     z-index: -5;
-    /* background: url(../img/bg_food_01_01.jpg) no-repeat center top; */
 }
 
 /* visual-board style */
-.container .visual-board{
+.container .visual-board {
     background: url(../img/bg_visual_story03.jpg) 50% 50% no-repeat;
-    width: 1922px;
+    /* width: 1922px; */
     height: 220px;
     color: #fff;
     font-weight: 700;
@@ -24,7 +23,7 @@
     transform: translateX(-50%);
     background: #00000073;
     opacity: 0.9;
-    width: 100vw;
+    width: 3000px;
     height: 220px;
     z-index: -1;
 }
@@ -64,13 +63,155 @@
     background: #f5bd43;
 }
 
+/* mainArea style */
+.mainArea {
+    background: url(../img/bg_food_01_01.jpg) no-repeat center;
+}
+
+.mainArea .inner {
+    padding: 30px 0 60px;
+    width: 1168px;
+    margin: 0 auto;
+}
+
+.tab {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tab li {
+    display: inline-block;
+    margin: 0 40px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: #808080;
+    font-weight: 700;
+}
+
+.tab li:first-child {
+    color: #db0007;
+    border-bottom: 1px solid #db0007;
+}
+
+/* competitive */
+.competitive {
+    margin-top: 80px;
+}
+
+.competitive .video {
+    width: 1158px;
+    height: 651px;
+    background-color: #db0007;
+    margin-bottom: 98px;
+}
+
+.competitive .topArea .step {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding: 0 40px;
+}
+
+.competitive .topArea .step li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: 60px;
+    background: #000;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.competitive .topArea .step li a span {
+    color: #eeba30;
+    margin-right: 7px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.competitive .topArea .step li:first-child {
+    background: #d40014;
+}
+
+.competitive .bottomArea .bottomArea-info {
+    margin: 0 auto;
+    text-align: center;
+    columns: #333;
+    width: 570px;
+    padding: 20px 40px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 25px;
+    line-height: 1.5em;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.competitive .bottomArea .foodTab {
+    margin: 25px 0 45px 0;
+    height: 136px;
+}
+
+.competitive .bottomArea .foodTab li {
+    float: left;
+    width: 136px;
+    height: 136px;
+    margin-left: 10px;
+}
+
+.competitive .bottomArea .foodCont {
+    width: 1168px;
+    height: 494px;
+    margin-top: 40px;
+    background: #fff;
+    border-radius: 30px;
+}
+
+.competitive .bottomArea .foodCont .img {
+    float: left;
+    width: 414px;
+    height: 414px;
+    padding: 40px 10px 40px 90px;
+}
+
+.competitive .bottomArea .foodCont .txt {
+    float: left;
+    padding: 80px 110px 30px 30px;
+    width: 514px;
+    height: 384px;
+    color: #808080;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.9;
+}
+
+.competitive .bottomArea .foodCont .txt .tit {
+    color: #292929;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.competitive .bottomArea .foodCont .txt .txtInfo {
+    margin-bottom: 15px;
+}
+
+.competitive .bottomArea .foodCont .txt .beef-account {
+    color: #292929;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 45px;
+}
 
 /* aside style */
 .aside {
     width: 150px;
     position: sticky;
     bottom: 110px;
-    left: 85% ;
+    left: 95%;
     z-index: 2;
 }
 
