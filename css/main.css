@@ -21,8 +21,12 @@ a {
 
 /* header style */
 header {
+    width: 100vw;
     height: 140px;
-    position: relative;
+    position: fixed;
+    background: #fff;
+    z-index: 9999;
+    border-bottom: 1px solid #ffbc0d;
 }
 
 header .inner-header {
