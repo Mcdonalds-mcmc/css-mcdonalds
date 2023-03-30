@@ -6,7 +6,7 @@
 /* visual-board style */
 .container .visual-board{
     background: url(../img/bg_visual_story04.jpg);
-    width: 1922px;
+    /* width: 1922px; */
     height: 220px;
     color: #fff;
     font-weight: 700;
@@ -23,7 +23,7 @@
     transform: translateX(-50%);
     background: #00000073;
     opacity: 0.9;
-    width: 100vw;
+    width: 3000px;
     height: 220px;
     z-index: -1;
 }
@@ -142,7 +142,7 @@
     width: 150px;
     position: sticky;
     bottom: 110px;
-    left: 85% ;
+    left: 95% ;
     z-index: 2;
 }
 
