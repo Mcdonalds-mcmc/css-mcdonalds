@@ -58,6 +58,10 @@ header .inner-header .hMenu .menu li {
     line-height: 140px;
 }
 
+header .inner-header .hMenu .menu li:hover {
+    border-bottom: 4px solid #ffbc0d;
+}
+
 header .inner-header .rightMenu {
     position: absolute;
     top: 53px;

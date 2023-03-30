@@ -7,15 +7,14 @@
 }
 
 section.main {
-    border-top: 2px solid rgb(255, 196, 0);
     background: #ffffff;
-    width: 100%;
-    height: 540px;
     padding-top: 140px;
-    vertical-align: top;
-    overflow: hidden;
-    visibility: visible;
-    text-align: center;
+}
+
+section.main .slide {
+    position: relative;
+    width: 1920px;
+    margin: 0 auto;
 }
 
 /* section mainArea style */
