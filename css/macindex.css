@@ -58,7 +58,6 @@
 .main .slide .indicator .timer {
     width: 300px;
     height: 6px;
-    overflow: hidden;
     border-radius: 6px;
     background: #fff;
     margin-top: 16px;
@@ -113,11 +112,10 @@
 
 }
 .aside {
-    float: right;
     width: 150px;
     position: sticky;
     bottom: 110px;
-    left: 85% ;
+    left: 95% ;
     z-index: 2;
 }
 
