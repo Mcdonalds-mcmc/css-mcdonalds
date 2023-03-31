@@ -6,30 +6,79 @@
     background: #fbfbfb;
 }
 
-section.main {
-    background: #ffffff;
-    padding-top: 140px;
+.container {
+    z-index: -5;
+    
 }
 
-section.main .slide {
-    position: relative;
+.main {
+    background: #ffffff;
+    padding-top: 140px;
     width: 1920px;
     margin: 0 auto;
 }
 
-/* section mainArea style */
-section.mainArea {
+.main .slide {
+    position: relative;
+}
+
+.main .slide .prev {
+    background: url(../img/bg_swiper_prev.png) no-repeat center;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.main .slide .next {
+    background: url(../img/bg_swiper_next.png) no-repeat center;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.main .slide .indicator {
+    position: absolute;
+    left: 40%;
+    bottom: 50px;
+    width: 366px;
+}
+
+.main .slide .indicator .play {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(../img/bg_swiper_pause.png) no-repeat;
+}
+
+.main .slide .indicator .timer {
+    width: 300px;
+    height: 6px;
+    overflow: hidden;
+    border-radius: 6px;
+    background: #fff;
+    margin-top: 16px;
+    margin-left: 65px;
+}
+
+/*  mainArea style */
+.mainArea {
     margin: 0 auto;
+    padding-bottom: 60px;
     background: #fbfbfb;
 }
 
-section.mainArea ul {
+.mainArea ul {
     margin: 0 auto;
     width: 1280px;
-    height: 1270px;
+    /* height: 1270px; */
 }
 
-section.mainArea .h3 h3 {
+.mainArea .h3 h3 {
     height: 60px;
     font-size: 40px;
     font-weight: 800;
@@ -38,7 +87,7 @@ section.mainArea .h3 h3 {
 }
 
 
-section.mainArea ul li {
+.mainArea ul li {
     width: 366px;
     height: 438px;
     overflow: hidden;
@@ -50,13 +99,13 @@ section.mainArea ul li {
     margin: 20px;
 }
 
-section.mainArea ul li p{
+.mainArea ul li p{
     font-size: 18px;
     padding: 24px 30px;
     line-height: 1.9;
 }
 
-section.mainArea .plusbtn a {
+.mainArea .plusbtn a {
     margin-right: 50px;
     padding-top: 1000px;
     display: block;
@@ -64,6 +113,7 @@ section.mainArea .plusbtn a {
 
 }
 .aside {
+    float: right;
     width: 150px;
     position: sticky;
     bottom: 110px;
