@@ -85,9 +85,11 @@ header .inner-header .rightMenu a {
 header .inner-header .rightMenu a:first-child {
     background: #db0007;
 }
+
 header .inner-header .rightMenu a:nth-child(2) {
     background: #d87e00;
 }
+
 header .inner-header .rightMenu a:last-child {
     background: #264a36;
 }
@@ -108,7 +110,7 @@ footer {
 }
 
 footer .inner-footer {
-    padding: 60px;    
+    padding: 60px;
     width: 1168px;
     margin: 0 auto;
 }
@@ -135,6 +137,38 @@ footer .inner-footer .fSns {
 }
 
 footer .inner-footer .fSns li {
+    position: relative;
     float: left;
     margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 100%;
+}
+
+footer .inner-footer .fSns li a {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: -13px;
+    left: 4px;
+}
+footer .inner-footer .fSns li .b {
+    width: 40px;
+    height: 40px;
+    top: -19px;
+    left: 7px;
+}
+footer .inner-footer .fSns li .c {
+    width: 40px;
+    height: 40px;
+    top: -19px;
+    left: 7px;
+}
+
+footer .inner-footer .fSns li .d {
+    width: 40px;
+    height: 40px;
+    top: -23px;
+    left: -25px;
 }
