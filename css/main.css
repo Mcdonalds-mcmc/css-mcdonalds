@@ -24,6 +24,8 @@ header {
     width: 100vw;
     height: 140px;
     position: fixed;
+    top: 0;
+    left: 0;
     background: #fff;
     z-index: 9999;
     border-bottom: 1px solid #ffbc0d;
@@ -188,23 +190,92 @@ footer .inner-footer .fSns li .d {
         display: none;
     }
 
+    .mo-wrap {
+        font-size: 14px;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+
     .mo-header {
+        width: 100vw;
         height: 62px;
         position: fixed;
+        top: 0;
+        left: 0;
         background: #fff;
         z-index: 9999;
     }
 
-    .moheader .mo-inner-header .mo-logo {
-        position: relative;
-        top: 0;
+    .mo-header .mo-inner-header .mo-logo {
+        float: left;
+        margin: 15px;
         width: 74px;
         height: 62px;
     }
 
-    .moheader .mo-inner-header .mo-logo a img {
+    .mo-header .mo-inner-header .mo-logo a img {
         width: 40px;
-        height: 40px;
+        height: 35px;
+    }
+
+    .gnb-mobile {
+        float: right;
+        font-size: 35px;
+        margin: 15px;
+    }
+
+    .mo-footer {
+        font-size: 14px;
+        font-weight: 100;
+        width: 100%;
+        padding: 33px 15px 80px;
+        background-color: #292929;
+        font-weight: 400;
+        line-height: 1.2;
+    }
+
+    .mo-footer .mo-fUtil {
+        overflow: hidden;
+        padding-bottom: 14px;
+        border-bottom: 1px solid #494949;
+    }
+
+    .mo-footer .mo-fUtil a {
+        float: left;
+        width: 50%;
+        padding: 8px 0;
+    }
+
+    .mo-footer .mo-fUtil a:first-child {
+        color: yellow;
+    }
+
+    .mo-footer .mo-fInfo {
+        display: block;
+        color: #909090;
+        padding: 30px 0;
+        border-bottom: 1px solid #494949;        
+    }
+
+    .mo-footer .mo-small {
+        color: #909090;
+        padding: 30px 0 40px;
+    }
+
+    .mo-products {
+        width: 345px;
+        padding: 40px 0 10px 0;
+        margin: 0 auto;
+    }
+
+    .mo-products::before {
+        content: '';
+        display: inline-block;
+        width: 4px;
+        height: 4px;
+        margin-right: 10px;
+        background: #ffbc0d;
+        border-radius: 50%;
+        vertical-align: middle;
     }
 
 }

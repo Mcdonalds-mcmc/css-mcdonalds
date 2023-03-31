@@ -27,6 +27,7 @@
     height: 220px;
     z-index: -1;
 }
+
 .container .visual-board .inner-vb {
     width: 1168px;
     height: 175px;
@@ -63,10 +64,10 @@
 }
 
 .mainArea {
-    padding: 30px  60px;
+    padding: 30px 60px;
     width: 1168px;
     margin: 0 auto;
-    
+
 }
 
 .tab {
@@ -135,6 +136,7 @@
     margin: 0 0 -35px -35px;
     /* background: red; */
 }
+
 .menulist li {
     float: left;
     width: 366px;
@@ -159,6 +161,7 @@
     background: #f8f8f8;
     margin-bottom: 0 auto;
 }
+
 .menulist li a:hover {
     border: 1px solid rgb(247, 175, 41);
     background: #fff;
@@ -170,10 +173,12 @@
     line-height: 0;
     vertical-align: top;
 }
-.txt{
+
+.txt {
     margin-top: 16px;
-   
+
 }
+
 .txt .name {
     display: block;
     color: #292929;
@@ -181,6 +186,7 @@
     font-weight: 700;
     line-height: 1.3;
 }
+
 .txt .sub-name {
     display: block;
     margin-top: 12px;
@@ -188,17 +194,19 @@
     line-height: 1.3;
     color: #808080;
 }
+
 .btnMore {
-     position: absolute;
-     bottom: -1000px;
-     left: 535px;
+    position: absolute;
+    bottom: -1000px;
+    left: 535px;
 
 }
+
 .aside {
     width: 150px;
     position: sticky;
     bottom: 110px;
-    left: 95% ;
+    left: 95%;
     z-index: 2;
 }
 
@@ -229,4 +237,126 @@
     text-indent: -9999px;
     font-size: 1px;
     margin-left: 41px;
+}
+
+@media screen and (max-width: 414px) {
+
+    .mo-header {
+        position: relative;
+    }
+
+    .mo-menu {
+        background: url(../imgs/img_visual_burger_01.jpg) no-repeat 100% 100% /cover;
+        width: 414px;
+        height: 182.16px;
+        z-index: -2;
+        position: relative;
+    }
+
+    .mo-menu::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #00000073;
+        opacity: 0.9;
+        width: 414px;
+        height: 182.16px;
+        z-index: -1;
+    }
+
+    .mo-topVisual {
+        /* background: red; */
+        display: block;
+        width: 414px;
+        height: 50px;
+    }
+
+    .mo-topVisual h1 {
+        color: #ffffff;
+        font-size: 40px;
+        font-weight: bold;
+        padding: 69px 13px;
+    }
+
+    .mo-tabArea {
+        width: 414px;
+        height: 46px;
+        margin: 0 auto;
+        text-align: left;
+        border-bottom: 0.1px solid #dfdede;
+    }
+
+    .mo-tabArea ul {
+        margin-top: 6px;
+    }
+
+    .mo-tabArea li {
+        display: inline-block;
+
+        padding: 10px;
+        font-size: 15px;
+        color: #808080;
+        font-weight: 700;
+    }
+
+    .mo-tabArea li.sub-names a {
+        font-weight: 700;
+        color: #db0007;
+        border-bottom: 1px solid #db0007;
+        padding: 6px 0;
+    }
+
+    .mo-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        flex: 0 50%;
+        padding: 5px;
+
+    }
+
+    .mo-list li {
+        margin-bottom: 15px;
+    }
+    .mo-list li a {
+        width: 187px;
+        height: 250px;
+        display: block;
+        text-align: center;
+        border-radius: 5px;
+
+        background: #f8f8f8;
+    } 
+
+    .mo-list a img {
+        width: 147px;
+        height: 123px;
+        margin: 0;
+        padding: 25px 20px 20px;
+        line-height: 0;
+        vertical-align: top;
+    }
+
+    .mo-list li a span {
+        font-size: 12px;
+        margin-bottom: 10px;
+        color: #808080;
+        line-height: 2.5;
+    }
+
+    .mo-list .plusbtn img {
+        width: 70px;
+        height: 70px;
+        margin: 50px 157px 0px;
+    }
+
+    .mo-list .topbtn img {
+        width: 50px;
+        height: 50px;
+        margin-left: 300px;        
+    }
+
 }
