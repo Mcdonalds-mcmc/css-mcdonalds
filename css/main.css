@@ -100,6 +100,10 @@ header .inner-header .find {
     font-size: 35px;
 }
 
+header .inner-header .gnb-mobile {
+    display: none;
+}
+
 /* footer style */
 footer {
     background: #292929;
@@ -171,4 +175,36 @@ footer .inner-footer .fSns li .d {
     height: 40px;
     top: -23px;
     left: -25px;
+}
+
+@media screen and (min-width:415px) {
+    .mo-wrap {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .visible {
+        display: none;
+    }
+
+    .mo-header {
+        height: 62px;
+        position: fixed;
+        background: #fff;
+        z-index: 9999;
+    }
+
+    .moheader .mo-inner-header .mo-logo {
+        position: relative;
+        top: 0;
+        width: 74px;
+        height: 62px;
+    }
+
+    .moheader .mo-inner-header .mo-logo a img {
+        width: 40px;
+        height: 40px;
+    }
+
 }
